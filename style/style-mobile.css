@@ -1,0 +1,143 @@
+@media only screen and (max-width: 414px) {
+
+
+
+    header{
+        
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        font-family:'Roboto', sans-serif ;
+        -webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-family:'Roboto', sans-serif;
+    }
+    
+    nav a{
+        margin-left: 0;
+        text-decoration: none;
+        color: #052736;
+    }
+    
+    nav a:first-child{
+        margin-left: 0;
+    }
+    
+    
+    header, main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .bio {
+       flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 24px;
+        font-family:'Roboto', sans-serif;
+        justify-content: center;
+        font-display:center;
+        }
+        
+
+
+
+        .projects {   
+            display: flex;
+            margin-bottom:24;
+            align-items: center;
+            flex-wrap: 472px;
+            -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        }
+        
+        .button1 {
+            background-color:  #398aaf;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border: 1px solid rgb(26, 24, 24); 
+            border-radius: 16px;
+            text-align: center;
+            padding: 8px 16px 8px 16px;
+            margin-top: 24px;
+            margin-bottom: auto;
+            margin-left: auto;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            color:azure;
+        }
+        
+        .button2 {
+            background-color: #398aaf;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            border: 1px solid rgb(26, 24, 24); 
+            border-radius: 16px;
+            text-align: center;
+            padding: 8px 16px 8px 16px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            color: azure;
+        }
+        
+
+
+        .nahuel {
+            text-align:left;
+            font-size: 16px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        
+   
+    
+        footer div {
+            display: flex;
+            padding-top: 16px;
+           padding-bottom: 24px;
+            justify-content: flex-end;
+        }
+        
+        footer a{
+            margin-left: 80px;
+            text-decoration: none;
+            color: #04293a;
+            font-family:'Roboto', sans-serif ;
+        }
+        
+        footer a:first-child{
+            margin-left: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

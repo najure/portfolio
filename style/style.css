@@ -1,0 +1,221 @@
+
+body {
+    background-color: #d2cebc;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-family:'Roboto', sans-serif ;
+    -webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+nav{
+    display: flex;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+}
+
+nav a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: #052736;
+}
+
+nav a:first-child{
+    margin-left: 0;
+}
+
+
+header, main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,h2,h4,p { color:#052736; 
+}
+h3 { color:#398aaf; 
+}
+
+
+p {
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bio {
+text-align: center;
+font-size: 24px;
+font-family:'Roboto', sans-serif;
+justify-content: center;
+font-display:center;
+}
+
+.text {
+    max-width: 472px;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.projects {   
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: 472px;
+    -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+.button1 {
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid rgb(26, 24, 24); 
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+    margin-top: 24px;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+   cursor: pointer;
+    color:azure;
+}
+
+.button2 {
+    background-color: #398aaf;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid rgb(26, 24, 24); 
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+}
+
+.button1:hover{
+opacity:0,4;
+background-color:transparent;
+color:#052736;
+border-color: transparent;
+
+}
+
+.button2:hover{
+    opacity:0,4;
+    background-color:transparent;
+    color:#052736;
+    border-color: transparent;
+    
+    }
+
+.project-description a {
+    
+    text-decoration: none;
+}
+    
+.nahuel {
+    text-align:left;
+    font-size: 16px;
+    
+
+}
+
+footer {
+    display: flex;
+     padding-top: 16px;
+    padding-bottom: 24px;
+
+    justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+
+}
+
+footer a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: #04293a;
+    font-family:'Roboto', sans-serif ;
+}
+
+footer a:first-child{
+    margin-left: 0;
+}
+
+
+
+ @-webkit-keyframes rotate-vert-center {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    }
+  }
+  @keyframes rotate-vert-center {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    }
+  }
+  
+ 
+@-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
